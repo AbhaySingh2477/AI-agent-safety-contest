@@ -8,6 +8,7 @@ Your goal: Find sequences of agent actions that violate security predicates
 (exfiltration, destructive writes, confused deputy, etc.)
 """
 
+from __future__ import annotations
 import time
 from collections.abc import Mapping
 from typing import Final, Any
